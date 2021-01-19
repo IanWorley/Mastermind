@@ -38,7 +38,6 @@ This compares the code with what the user typed in.Tells if user got a number in
             else:
                 print(F"not found: {number}")
 
-    print(user_attempted)
     # resets the list
     user_attempted.clear()
 
