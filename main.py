@@ -7,7 +7,7 @@ user_attempted = []
 res = []
 trys_took = 0 
 
-termcolor.cprint("Welcome to game of mastermind")
+termcolor.cprint("Welcome to game of mastermind.")
 
 def make_code(length_code=4):
     for i in range(length_code):
@@ -57,4 +57,5 @@ def guess(**kwargs):
     termcolor.cprint(F"You lose it took you {trys_took} trys. ", "red")
 
 
-guess(guesses=3, length=4)
+guess(guesses=10, length=4)
+ 
